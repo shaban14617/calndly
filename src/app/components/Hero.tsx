@@ -1,5 +1,7 @@
 "use client";
 
+import { Play } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 function Hero() {
@@ -27,6 +29,21 @@ function Hero() {
         Most Scheduling app are simple but ours is the simplest <br />
         Also it is open source
       </p>
+      <div className='flex mt-4 gap-4 justify-center'>
+        <Link
+          href={"/"}
+          className='bg-black text-white px-4 py-2 rounded-full '
+        >
+          Get Started Now
+        </Link>
+        <Link
+          href={"/"}
+          className='border border-gray-300 px-4 py-2 rounded-full inline-flex gap-2 items-center'
+        >
+          <Play size={16} />
+          Watch Video
+        </Link>
+      </div>
     </section>
   );
 }
