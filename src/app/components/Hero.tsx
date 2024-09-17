@@ -34,7 +34,7 @@ function Hero() {
           href={"/"}
           className='bg-black text-white px-4 py-2 rounded-full '
         >
-          Get Started Now
+          Get Started For Free
         </Link>
         <Link
           href={"/"}
